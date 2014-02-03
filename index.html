@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Cheat Sheet and 3 functions to return somthing via the console or alert</title>
+<title> Cheat Sheet and 4 user initiated jQuery events</title>
 
 <!-- link to CSS -->
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
+<!-- include jQuery library -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
 <!-- link to js -->
+
+<!-- IMPORTANT to note here, my external script has to linked AFTER jQuery library is link in order to function -->
 
 <script src="js/script.js"></script>
 
@@ -19,32 +25,42 @@
 
 <div id="wrapper">
 
+<!-- show assignment -->
+
 <div id="assignmenttxt">
 	
-	<h1 id="assignmenthead">Create a &quot;cheat sheet&quot; JavaScript file that contains examples of all of the things we learned today, delineated with comments:</h1>
+	<h1 id="assignmenthead">Create a &quot;cheat sheet&quot; JavaScript file that contains examples of all of the things we learned today, delineated with comments</h1>
 
-<!-- unordered list to display assignment items -->
 
-		<ul>
-			<li>Variables</li>
+	<h1 id="assignmenthead">Create a web page with 4 different jQuery events. Have at least one of them be initiated by a click event.</h1>
 
-			<li>Debugging (alerts, comments, the console)</li>
+<!-- create event boxes -->
 
-			<li>Different data types</li>
+	<div id="eventboxleft">
 
-			<li>Arrays</li>
+			<img id="centerimg" src="images/click_me.svg" width="170">
+			<div id="eventtxt">CLICK ME TO INITIATE EVENT #1</div>
+	</div>
 
-			<li>Testing</li>
+		<div id="eventboxright">
 
-			<li>Logic</li>
+			<img id="centerimg" src="images/click_me.svg" width="170">
+			<div id="eventtxt">CLICK ME TO INITIATE EVENT #2</div>
+	</div>
 
-			<li>Functions</li>
-		</ul>
+		<div id="eventboxlefta">
 
-	<h1 id="assignmenthead">Write 3 different functions that take input and return something via the console or an alert</h1>
+			<img id="centerimg" src="images/click_me.svg" width="170">
+			<div id="eventtxt">CLICK ME TO INITIATE EVENT #3</div>
+	</div>
+
+		<div id="eventboxrighta">
+
+			<img id="centerimg" src="images/click_me.svg" width="170">
+			<div id="eventtxt">CLICK ME TO INITIATE EVENT #4</div>
+	</div>
 
 </div>
-
 </div>
 </body>
 </html>

@@ -7,6 +7,7 @@
 #wrapper {
 	
 	width: 500px;
+	height: 800px;
 	display: block;
 	border: 4px dashed rgb(38, 102, 166);
 	margin: 0 auto;
@@ -17,6 +18,63 @@
 	font-family: 'Francois One', sans-serif;
 
 }
+
+/* style event boxes */
+
+#eventboxleft {
+
+	width: 220px;
+	height: 230px;
+	border: 3px dashed white;
+	background-color: rgb(213, 203, 245);
+	display: inline-block;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 7px rgb(34, 92, 149);
+
+}
+
+#eventboxlefta {
+
+	width: 220px;
+	height: 230px;
+	border: 3px dashed white;
+	background-color: rgb(213, 203, 245);
+	display: inline-block;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 7px rgb(34, 92, 149);
+
+}
+
+#eventboxright {
+
+	float: right;
+	width: 220px;
+	height: 230px;
+	border: 3px dashed white;
+	background-color: rgb(213, 203, 245);
+	display: inline-block;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 7px rgb(34, 92, 149);
+
+}
+
+#eventboxrighta {
+
+	float: right;
+	width: 220px;
+	height: 230px;
+	border: 3px dashed white;
+	background-color: rgb(213, 203, 245);
+	display: inline-block;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 7px rgb(34, 92, 149);
+
+}
+
 
 /* style text */
 
@@ -31,4 +89,16 @@
 
 	font-size: 25px;
 	color: rgb(78, 85, 108);
+}
+
+#eventtxt {
+
+	text-align: center;
+	font-size: 15px;
+}
+
+#centerimg { 
+
+	display: block;
+	margin: 0 auto;
 }
