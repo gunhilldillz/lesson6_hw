@@ -1,0 +1,34 @@
+/* import google font */
+
+@import url(http://fonts.googleapis.com/css?family=Francois+One);
+
+/* wrap contect */
+
+#wrapper {
+	
+	width: 500px;
+	display: block;
+	border: 4px dashed rgb(38, 102, 166);
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 30px;
+	background-color: rgb(178, 194, 247);
+	border-radius: 10px;
+	font-family: 'Francois One', sans-serif;
+
+}
+
+/* style text */
+
+#assignmenttxt {
+
+	font-size: 20px;
+	text-align: justify;
+	color: rgb(78, 85, 108);
+}
+
+#assignmenthead {
+
+	font-size: 25px;
+	color: rgb(78, 85, 108);
+}
