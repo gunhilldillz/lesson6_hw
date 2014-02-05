@@ -77,18 +77,6 @@ $(document).ready( function(){
 					
 				});
 
-	$("#eventboxlefta").click(function()
-
-				{
-
-					for ( var i = 0; i < 3000; i++ ) {
-   
-    					$("#eventboxlefta").slideUp (300);
-    					$("#eventboxlefta").slideDown(300);
-					}
-
-					
-				});
 
 	$("#eventboxright").click(function()
 
@@ -96,8 +84,21 @@ $(document).ready( function(){
 
 					for ( var i = 0; i < 3000; i++ ) {
    
-    					$("#eventboxright").hide(300);
-    					$("#eventboxright").show(300);
+    					$("#eventboxright").fadeIn(800);
+    					$("#eventboxright").fadeOut(300);
+					}
+
+					
+				});
+
+	$("#eventboxlefta").click(function()
+
+				{
+
+					for ( var i = 0; i < 3000; i++ ) {
+   
+    					$("#eventboxlefta").slideUp(300);
+    					$("#eventboxlefta").slideDown(300);
 					}
 
 					
@@ -119,6 +120,6 @@ $(document).ready( function(){
 });
 
 
-
+// end 
 
 
